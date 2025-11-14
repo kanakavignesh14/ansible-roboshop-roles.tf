@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.vigi-devops.fun
+MONGODB_HOST: mongodb-{{ env }}.vigi-devops.fun
