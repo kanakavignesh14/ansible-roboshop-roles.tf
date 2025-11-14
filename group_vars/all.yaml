@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.daws86s.fun
-REDIS_HOST: redis.daws86s.fun
-CATALOGUE_HOST: catalogue.daws86s.fun
-CART_HOST: cart.daws86s.fun
-USER_HOST: user.daws86s.fun
-RABBITMQ_HOST: rabbitmq.daws86s.fun
-MYSQL_HOST: mysql.daws86s.fun
-SHIPPING_HOST: shipping.daws86s.fun
-PAYMENT_HOST: payment.daws86s.fun
+MONGODB_HOST: mongodb-{{ env }}.vigi-devops.fun  #mongodb-dev.vigi-devops.fun
+REDIS_HOST: redis.vigi-devops.fun
+CATALOGUE_HOST: catalogue.vigi-devops.fun
+CART_HOST: cart.vigi-devops.fun
+USER_HOST: user.vigi-devops.fun
+RABBITMQ_HOST: rabbitmq.vigi-devops.fun
+MYSQL_HOST: mysql.vigi-devops.fun
+SHIPPING_HOST: shipping.vigi-devops.fun
+PAYMENT_HOST: payment.vigi-devops.fun
