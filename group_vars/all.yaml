@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb-{{ env }}.vigi-devops.fun  #mongodb-dev.vigi-devops.fun
+MONGODB_HOST: mongodb-{{ env }}.vigi-devops.fun  #mongodb-dev.vigi-devops.fun.  *.backend-alb-dev.vigi-devops.fun
 REDIS_HOST: redis-{{ env }}.vigi-devops.fun
 CATALOGUE_HOST: catalogue-{{ env }}.vigi-devops.fun
-CART_HOST: cart-{{ env }}.vigi-devops.fun
-USER_HOST: user-{{ env }}.vigi-devops.fun
+CART_HOST: cart.backend-alb-{{ env }}.vigi-devops.fun
+USER_HOST: user.backend-alb-{{ env }}.vigi-devops.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.vigi-devops.fun
 MYSQL_HOST: mysql-{{ env }}.vigi-devops.fun
-SHIPPING_HOST: shipping-{{ env }}.vigi-devops.fun
-PAYMENT_HOST: payment-{{ env }}.vigi-devops.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.vigi-devops.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.vigi-devops.fun
