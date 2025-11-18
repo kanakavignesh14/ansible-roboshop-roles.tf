@@ -1,6 +1,6 @@
 MONGODB_HOST: mongodb-{{ env }}.vigi-devops.fun  #mongodb-dev.vigi-devops.fun.  *.backend-alb-dev.vigi-devops.fun
 REDIS_HOST: redis-{{ env }}.vigi-devops.fun
-CATALOGUE_HOST: catalogue-{{ env }}.vigi-devops.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.vigi-devops.fun
 CART_HOST: cart.backend-alb-{{ env }}.vigi-devops.fun
 USER_HOST: user.backend-alb-{{ env }}.vigi-devops.fun
 RABBITMQ_HOST: rabbitmq-{{ env }}.vigi-devops.fun
